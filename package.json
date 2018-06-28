@@ -1,0 +1,25 @@
+{
+  "name": "todoer",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "description": "A command line tool to manage tasks",
+  "bin": {
+    "todoer": "./bin/todoer.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vamtha/todoer-cli.git"
+  },
+  "homepage": "https://github.com/vamtha/todoer-cli#readme",
+  "bugs": {
+    "url": "https://github.com/vamtha/todoer-cli/issues"
+  },
+  "author": "Jonathan Vazquez <vamtha24@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
